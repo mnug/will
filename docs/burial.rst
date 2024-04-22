@@ -1,4 +1,0 @@
-Burial
-========
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate diam augue, eu accumsan ipsum interdum et. Pellentesque vitae elementum dui, eget luctus ex. Praesent sit amet massa finibus, rhoncus magna et, sollicitudin felis. Fusce tincidunt neque sed magna condimentum, nec lobortis augue lacinia. Phasellus massa sem, venenatis eu purus venenatis, lacinia accumsan purus. Morbi mattis nisl diam, ac interdum libero molestie id. Vestibulum sed eleifend massa, condimentum iaculis neque. Nulla facilisi. Duis posuere pharetra nisi, vel lobortis lectus porta sit amet. Suspendisse potenti. Mauris magna augue, tempor eget dapibus eu, fermentum vitae urna. Vivamus mollis nisl in rhoncus ornare. Nulla eget lectus nibh. 
