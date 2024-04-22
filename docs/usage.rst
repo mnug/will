@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use , first install it using pip:
 
 
 Creating recipes
