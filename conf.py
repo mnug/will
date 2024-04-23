@@ -134,7 +134,7 @@ for file in files:
 import shutil
 
 # Define the paths
-source_file = "docs/index.rst"  # Path to the index.rst file
+source_file = "index.rst"  # Path to the index.rst file
 destination_directory = "index.rst"  # Path to the destination directory
 
 # Move the file
