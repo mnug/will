@@ -100,7 +100,7 @@ for file in files:
 
 print("----------- DOCS")
 
-os.chdir("docs")
+os.chdir("../docs")
 
 # Get the current directory
 current_directory = os.getcwd()
