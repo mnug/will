@@ -16,7 +16,7 @@
 
 # before any changes, index.rst likely needs moving to root
 
-root_doc = "./docs/"
+root_doc = "docs/index"
 
 
 
