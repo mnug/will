@@ -68,6 +68,7 @@ html_static_path = ["_static"]
 
 
 print("AAAAAAAAAAAAAAAAAAAAAAAAA")
+print("----------- ROOT")
 
 import os
 
@@ -80,5 +81,38 @@ files = os.listdir(current_directory)
 # Print the list of files
 for file in files:
     print(file)
+
+
+
+print("----------- BUILD")
+
+os.chdir("build")
+
+# Get the current directory
+current_directory = os.getcwd()
+
+# List all files in the 'build' directory
+files = os.listdir(current_directory)
+
+# Print the list of files
+for file in files:
+    print(file)
+
+print("----------- DOCS")
+
+os.chdir("docs")
+
+# Get the current directory
+current_directory = os.getcwd()
+
+# List all files in the 'build' directory
+files = os.listdir(current_directory)
+
+# Print the list of files
+for file in files:
+    print(file)
+
+
+
 
 print("CCCCCCCCCCCC")
