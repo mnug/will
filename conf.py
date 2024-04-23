@@ -16,7 +16,7 @@
 
 # before any changes, index.rst likely needs moving to root
 
-root_doc = "docs/index"
+#root_doc = "docs/index"
 
 
 # -- Project information -----------------------------------------------------
@@ -67,80 +67,80 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
 
-print("AAAAAAAAAAAAAAAAAAAAAAAAA")
-print("----------- ROOT")
+# print("AAAAAAAAAAAAAAAAAAAAAAAAA")
+# print("----------- ROOT")
 
-import os
+# import os
 
-# Get the current directory
-current_directory = os.getcwd()
+# # Get the current directory
+# current_directory = os.getcwd()
 
-# List all files in the current directory
-files = os.listdir(current_directory)
+# # List all files in the current directory
+# files = os.listdir(current_directory)
 
-# Print the list of files
-for file in files:
-    print(file)
-
-
-
-print("----------- BUILD")
-
-os.chdir("build")
-
-# Get the current directory
-current_directory = os.getcwd()
-
-# List all files in the 'build' directory
-files = os.listdir(current_directory)
-
-# Print the list of files
-for file in files:
-    print(file)
-
-print("----------- DOCS")
-
-os.chdir("../docs")
-
-# Get the current directory
-current_directory = os.getcwd()
-
-# List all files in the 'build' directory
-files = os.listdir(current_directory)
-
-# Print the list of files
-for file in files:
-    print(file)
-
-
-print("CCCCCCCCCCCC")
+# # Print the list of files
+# for file in files:
+#     print(file)
 
 
 
-print("--------- current directory")
+# print("----------- BUILD")
 
-import os
+# os.chdir("build")
 
-# Get the current directory
-current_directory = os.getcwd()
+# # Get the current directory
+# current_directory = os.getcwd()
 
-# List all files in the current directory
-files = os.listdir(current_directory)
+# # List all files in the 'build' directory
+# files = os.listdir(current_directory)
 
-# Print the list of files
-for file in files:
-    print(file)
+# # Print the list of files
+# for file in files:
+#     print(file)
 
-import shutil
+# print("----------- DOCS")
 
-# Define the paths
-source_file = "index.rst"  # Path to the index.rst file
-destination_directory = "index.rst"  # Path to the destination directory
+# os.chdir("../docs")
 
-# Move the file
-shutil.move(source_file, destination_directory)
+# # Get the current directory
+# current_directory = os.getcwd()
+
+# # List all files in the 'build' directory
+# files = os.listdir(current_directory)
+
+# # Print the list of files
+# for file in files:
+#     print(file)
+
+
+# print("CCCCCCCCCCCC")
+
+
+
+# print("--------- current directory")
+
+# import os
+
+# # Get the current directory
+# current_directory = os.getcwd()
+
+# # List all files in the current directory
+# files = os.listdir(current_directory)
+
+# # Print the list of files
+# for file in files:
+#     print(file)
+
+# import shutil
+
+# # Define the paths
+# source_file = "index.rst"  # Path to the index.rst file
+# destination_directory = "index.rst"  # Path to the destination directory
+
+# # Move the file
+# shutil.move(source_file, destination_directory)
 
 
 
 
-print("DDDDDDDDDDDD")
+# print("DDDDDDDDDDDD")
