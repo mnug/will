@@ -117,6 +117,20 @@ print("CCCCCCCCCCCC")
 
 
 
+print("--------- current directory")
+
+import os
+
+# Get the current directory
+current_directory = os.getcwd()
+
+# List all files in the current directory
+files = os.listdir(current_directory)
+
+# Print the list of files
+for file in files:
+    print(file)
+
 import shutil
 
 # Define the paths
