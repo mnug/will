@@ -14,6 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+# before any changes, index.rst likely needs moving to root
+
+root_doc = "./docs/"
+
+
+
+
 
 # -- Project information -----------------------------------------------------
 
