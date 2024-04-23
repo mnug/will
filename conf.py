@@ -113,6 +113,20 @@ for file in files:
     print(file)
 
 
-
-
 print("CCCCCCCCCCCC")
+
+
+
+import shutil
+
+# Define the paths
+source_file = "docs/index.rst"  # Path to the index.rst file
+destination_directory = "index.rst"  # Path to the destination directory
+
+# Move the file
+shutil.move(source_file, destination_directory)
+
+
+
+
+print("DDDDDDDDDDDD")
